@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dag Isak - Mechatronics Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="logo">DagIsak.me</div>
+      <ul class="nav-links">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#roadmap">My Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="theme-toggle">
+        <label class="switch">
+          <input type="checkbox" id="theme-switch">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <h1>I'm <span>Dag Isak</span></h1>
+      <p>Mechatronics Engineering Student</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a mechatronics engineering student passionate about robotics, embedded systems, and automation. Through course projects and self-driven learning, I hope to develop innovative solutions that bridge the gap between mechanical and electronic systems. I enjoy working on hands-on projects, collaborating with peers, and continuously expanding my knowledge in this dynamic field.
+    </p>
+  </section>
+
+  <section id="roadmap" class="roadmap">
+    <h2>My Learning Roadmap</h2>
+    <div class="roadmap-container">
+      <div class="roadmap-item">
+        <h3>📘 2024</h3>
+        <p>Finished pre-engineering program at UiA, and started my first semester as a Mechatronics Engineer!</p>
+      </div>
+      <div class="roadmap-item current">
+        <h3>📗 Current</h3>
+        <p>Calculus 1 and 2, MATLAB, SolidWorks, Mechanics, Physics, introduction to electric circuits and digital technique.</p>
+      </div>
+      <div class="roadmap-item">
+        <h3>📙 2026</h3>
+        <p>Second year Mechatronics student. TBD</p>
+      </div>
+      <div class="roadmap-item">
+        <h3>🎯 2027</h3>
+        <p>Finishing bachelors degree in Mechatronics. TBD.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="roadmap" class="roadmap">
+    <h2>My Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <h3>2023</h3>
+          <p>Started BSc in Mechatronics Engineering at University of Agder.</p>
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <h3>2024</h3>
+          <p>Completed project: Line Following Robot using PID control and IR sensors.</p>
+        </div>
+      </div>
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <h3>2025</h3>
+          <p>Interned at Robotics Lab, developed autonomous swarm bots with ESP32 and LORA.</p>
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <h3>2026</h3>
+          <p>Working on Smart Irrigation System: IoT-based real-time soil monitoring and automated watering.</p>
+        </div>
+      </div>
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <h3>2027</h3>
+          <p>Expected graduation and seeking opportunities in robotics and automation industries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div>Arduino</div>
+      <div>SolidWorks</div>
+      <div>MATLAB</div>
+      <div>C/C++  (to be imporved)</div>
+      <div>Python  (to be imporved)</div>
+      <div>ROS2  (to be imporved)</div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="project-card" onclick="openModal('project1')">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1" />
+        <h3>LDR Following Robot</h3>
+        <p>Autonomous tracking with LDR sensor ad P-controller.</p>
+      </div>
+      <div class="project-card" onclick="openModal('project2')">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2" />
+        <h3>Engineering kit Rev2 - Arduino</h3>
+        <p>TBD</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <section id="experience" class="experience">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span>2024</span>
+        <h3>Seabotics - Student Organization</h3>
+        <p>Building an autonomous self-docking boat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p style="text-align:center; max-width: 600px; margin: auto;">
+      If you’d like to get in touch, please email me directly at 
+      <a href="mailto:dagisak.p@outlook.com">dagisak.p@outlook.com</a>.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Dag Isak • Mechatronics Engineer</p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/dagisak/" target="_blank" rel="noopener noreferrer">LinkedIn</a> •
+      <a href="https://github.com/notIsakS" target="_blank" rel="noopener noreferrer">GitHub</a> •
+      <a href="mailto:dagisak.p@outlook.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
